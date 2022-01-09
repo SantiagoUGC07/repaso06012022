@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+
+</head>
+<body>
+    <h1>REPASO HTML</h1>
+    <h2 id="subtitulo">FOMULARIOS</h2>
+    <form>
+        <fieldset>
+            <legend>DATOS</legend>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input 
+                    id="nombre"
+                    name="nombre"
+                    type="text" 
+                    placeholder="Ingrese su Nombre"/>
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input 
+                    id="apellido"
+                    name="apellido"
+                    type="text" 
+                    placeholder="Ingrese su Apellido"/>
+                </div>
+                <div>
+                    <label for="comentario">COMENTARIO</label>
+                    <textarea 
+                    name="comentario"
+                    id="comentario"
+                    cols="10"
+                    rows="5"
+                    ></textarea> 
+                </div>
+                <!--TEXTAREA cnatidad de filas y columnas para ingresar texto-->
+                <div>
+                    <input type="button" value="Enviar" />
+                </div>
+        </fieldset>
+    </form>
+    <h2>TABLAS</h2>
+    <table>
+        <Thead>
+            <tr>
+                <th>
+                    CABECERA
+                </th>
+            </tr>
+        </Thead>
+        <Tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+            </tr>
+        </Tbody>
+        <Tfoot>
+            <tr>
+                <td>PIE</td>
+                <td>PIE</td>
+            </tr>
+        </Tfoot>
+    </table>
+    <!--
+        <a href="servicios.html" target="_blank">Enlace</a>
+    -->
+    <!--inline-->
+    <div>
+    <a class="enlace" href="servicios.html"
+    target="_blank">Enlace</a>
+    <!--block-->
+    <a class="enlace" href="servicios.html"
+    target="_blank">Enlace 2</a>
+
+    <span>este es un span se coloca despues en lina al parrafo</span>
+    <p>este es un parrafo</p>
+
+    <h1 id="bloque">titulo</h1>
+    <h2 id="bloque">subtitulo</h2>
+    <h6 id="bloque">sub</h6>
+    </div>
+
+    <a href="servicios.html"><button>Hola</button></a>
+    <a href="servicios.html"><img scr="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/large/public/2021-10/los-mejores-juegos-de-perritos-cachorros-por-mes-de-edad.png?itok=UNEbd6Xh" alt="perrito" width="600" ></a>
+    <a href="#subtitulo">ir arriba</a>
+</body>
+</html>
